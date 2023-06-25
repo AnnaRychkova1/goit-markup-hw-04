@@ -23,10 +23,7 @@
     --border-color-filtres-btn: #E7E9FC;
 }
 
-
-/* Common stules */
-
-body {  
+body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -35,6 +32,12 @@ body {
     color: var(--text-main-color);
     background-color: var(--bg-color);
 }
+
+/**
+  |============================
+  | Reset
+  |============================
+*/
 
 *,
 *::before,
@@ -68,6 +71,7 @@ img {
 
 .link {
     text-decoration: none;
+    color: currentColor;
 }
 
 .list {
@@ -78,6 +82,12 @@ img {
     font-family: inherit;
     cursor: pointer;
 }
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
 
 .container {
     max-width: 1158px;
@@ -142,9 +152,14 @@ img {
     overflow: hidden;
 }
 
-/* Header */
+/**
+  |============================
+  | Header
+  |============================
+*/
 
 .header {
+    padding: 24px 0;
     border-bottom: 1px solid var(--border-color-filtres-btn);
 }
 
@@ -185,8 +200,6 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-address-item {}
@@ -201,11 +214,19 @@ img {
     color: var(--text-hover-link-blue);
 }
 
-/* Main */
+/**
+  |============================
+  | Main
+  |============================
+*/
 
 .main {}
 
-/* Hero section */
+/**
+  |============================
+    Hero section
+  |============================
+*/
 
 .hero {
     background-color: var(--bg-dark-color);
@@ -248,7 +269,11 @@ img {
     background-color: var(--bg-btn-hover);
 }
 
-/* Features section */
+/**
+  |============================
+  | Features section
+  |============================
+*/
 
 .features {}
 
@@ -280,7 +305,11 @@ img {
     letter-spacing: 0.02em;
 }
 
-/* What are we doing section */
+/**
+  |============================
+  | What are we doing section
+  |============================
+*/
 
 .work {
     padding-top: 0;
@@ -298,7 +327,11 @@ img {
 .work-image {
 }
 
-/* Our Team section */
+/**
+  |============================
+  | Our Team section
+  |============================
+*/
 
 .team {
     background-color: var(--bg-ligt-grey-color);
@@ -340,7 +373,11 @@ img {
     font-weight: 400;
 }
 
-/* Footer section */
+/**
+  |============================
+  | Footer
+  |============================
+*/
 
 .footer {
     padding-top: 100px;
@@ -359,7 +396,11 @@ img {
 }
 
 
-/* Portfolio */
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
 
 .portfolio {
     padding-top: 96px;
