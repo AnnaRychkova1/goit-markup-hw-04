@@ -76,6 +76,15 @@ img {
     height: auto;
 }
 
+button {
+    font-family: inherit;
+    color: currentColor;
+}
+
+input {
+    font-family: inherit;
+}
+
 .link {
     text-decoration: none;
     color: currentColor;
